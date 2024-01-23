@@ -38,11 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'GetCurrentUSD',
-    'django_crontab',
-]
-
-CRONJOBS = [
-    ('*/10 * * * ', 'GetCurrentUSD.views.update_currency_usd'),
 ]
 
 MIDDLEWARE = [
