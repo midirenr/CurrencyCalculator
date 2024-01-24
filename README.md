@@ -9,7 +9,7 @@ Web-приложение разработано в рамках тестовог
 - Перейдите в папку с проектом: ```cd CurrencyCalculator```
 
 - Создайте виртуальное окружение командой:
-1) Для ubuntu/linux: ```sudo python3 -m venv venv```
+1) Для ubuntu/linux: ```python3 -m venv venv```
 2) Для windows: ```python -m venv venv```
 
 - Активируйте виртуальное окружение командой:
