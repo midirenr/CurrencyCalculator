@@ -6,4 +6,5 @@ class GetcurrentusdConfig(AppConfig):
     name = 'GetCurrentUSD'
 
     def ready(self):
-        from .scheduler import add_currency_usd_job
+        from GetCurrentUSD import scheduler
+        scheduler.add_currency_usd_job()

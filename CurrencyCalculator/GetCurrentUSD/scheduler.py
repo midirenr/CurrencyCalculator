@@ -13,6 +13,3 @@ def add_currency_usd_job():
     scheduler = BackgroundScheduler()
     scheduler.add_job(update_currency_usd, trigger=IntervalTrigger(seconds=10))
     scheduler.start()
-
-
-add_currency_usd_job()
