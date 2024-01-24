@@ -1,5 +1,7 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
+
+from django.core.signals import request_finished
 from .views import update_currency_usd
 
 
