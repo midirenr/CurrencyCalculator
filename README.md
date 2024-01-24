@@ -17,11 +17,11 @@ Web-приложение разработано в рамках тестовог
 
 - Установите все зависимости из файла requirements.txt: ```pip install -r requirements.txt```
 
-- Сделайте миграции командой: ```python manage.py makemigrations```
+- Сделайте миграции командой: ```python CurrencyCalculator/manage.py makemigrations```
 
-- Примените миграции командой: ```python manage.py migrate```
+- Примените миграции командой: ```python CurrencyCalculator/manage.py migrate```
 
-- Запустите локальный сервер Django командой: ```python manage.py runserver```
+- Запустите локальный сервер Django командой: ```python CurrencyCalculator/manage.py runserver```
 
 - Перейдите по [ссылке](http://127.0.0.1:8000/get-current-usd/) или http://127.0.0.1:8000/get-current-usd/ для получения данных
 
