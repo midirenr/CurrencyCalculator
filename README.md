@@ -3,7 +3,7 @@ Web-приложение разработано в рамках тестовог
 
 ## Как запустить:
 - Откройте в CMD директорию в которую будете устанавливать проект
-- Склонируйте репозиторий командой: ```https://github.com/midirenr/CurrencyCalculator.git```
+- Склонируйте репозиторий командой: ```git clone https://github.com/midirenr/CurrencyCalculator.git```
 
 - Перейдите в папку с проектом: ```cd CurrencyCalculator```
 
